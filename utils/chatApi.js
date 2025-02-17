@@ -1,4 +1,4 @@
-const API_URL = process.env.NEXT_PUBLIC_CHATBOT_API_URL;
+const API_URL = process.env.NEXT_PUBLIC_CHATBOT_API_URL ;
 
 export async function getChatbotResponse(userMessage) {
     const response = await fetch(`${API_URL}/chat`, {
